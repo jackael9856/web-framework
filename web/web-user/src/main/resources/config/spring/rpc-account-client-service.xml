@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:motan="http://api.weibo.com/schema/motan"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://api.weibo.com/schema/motan http://api.weibo.com/schema/motan.xsd">
+
+    <motan:referer id="balanceService" interface="com.uxin.zb.balance.service.BalanceService"
+                   basicReferer="motantestClientBasicConfig" check="false"/>
+    <motan:referer id="walletService" interface="com.uxin.zb.balance.service.WalletService"
+                   basicReferer="motantestClientBasicConfig" check="false"/>
+    <motan:referer id="withdrawService" interface="com.uxin.zb.balance.service.WithdrawService"
+                   basicReferer="motantestClientBasicConfig" check="false"/>
+
+</beans>

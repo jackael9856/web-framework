@@ -12,7 +12,11 @@
 	<packaging>war</packaging>
 
 	<dependencies>
-
+		<dependency>
+            <groupId>com.menglong</groupId>
+            <artifactId>web-commons</artifactId>
+            <version>${project.version}</version>
+        </dependency>
 	</dependencies>
 	<build>
 		<plugins>

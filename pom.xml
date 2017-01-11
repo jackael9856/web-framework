@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.menglong</groupId>
-    <artifactId>framework</artifactId>
+    <artifactId>web-framework</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     
-    <name>framework</name>
+    <name>web-framework</name>
 
     <modules>
         <module>service</module>

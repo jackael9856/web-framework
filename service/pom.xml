@@ -3,7 +3,7 @@
     <parent>
         <groupId>com.menglong</groupId>
         <version>0.0.1-SNAPSHOT</version>
-        <artifactId>web-framework</artifactId>
+        <artifactId>framework</artifactId>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
